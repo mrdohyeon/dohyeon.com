@@ -1,0 +1,50 @@
+.Header {
+  position: relative;
+  flex-shrink: 0;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+
+  &::after {
+    content: "";
+    background-image: url('./img/header-panel-bg.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+  }
+
+  > * {
+    padding-top: 6em;
+    padding-bottom: 8em;
+
+
+    > .name {
+      font-size: 3.75em;
+      font-weight: 600;
+      margin-bottom: 0.25em;
+    }
+
+    > .title, .twitter {
+      font-size: 1.75em;
+      font-weight: 300;
+    }
+
+    > .description {
+      margin-top: 2.5em;
+      font-size: 1.75em;
+      font-weight: 300;
+    }
+  }
+
+  > .container {
+    width: 480px;
+    max-width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,29 @@
+.Menu {
+  color: #111;
+
+  > * {
+    display: flex;
+    flex-direction: row;
+    @media (max-width: 600px) {
+      flex-direction: column;
+    }
+
+    > .item {
+      cursor: pointer;
+      font-size: 1.25em;
+      color: black;
+
+      padding: 1em 0;
+      margin-right: 2em;
+
+      &:hover {
+        color: #FC3B4A;
+        transition:.5s;
+      }
+
+      &.selected {
+        color: #FC3B4A;
+      }
+    }
+  }
+}
