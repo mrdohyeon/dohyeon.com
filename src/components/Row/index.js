@@ -14,9 +14,12 @@ class Row extends Component {
             <div className="name">{project.name}</div>
             <div>
               <div className="description">{project.descriptions.join(' ')}</div>
+
               {project.download && (
                 <div className="download">
-                  <img src={require('./img/download.svg')} alt="download" />
+                  <a href={project.download} target="_blank">
+                    <img src={require('./img/download.svg')} alt="download" />
+                  </a>
                 </div>
               )}
             </div>
