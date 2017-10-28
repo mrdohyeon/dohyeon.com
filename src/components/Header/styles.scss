@@ -20,7 +20,6 @@
     padding-top: 6em;
     padding-bottom: 8em;
 
-
     > .name {
       font-size: 3.75em;
       font-weight: 600;
@@ -30,12 +29,14 @@
     > .title, .twitter {
       font-size: 1.75em;
       font-weight: 300;
+      line-height: 130%;
     }
 
     > .description {
       margin-top: 2.5em;
       font-size: 1.75em;
       font-weight: 300;
+      line-height: 130%;
     }
   }
 

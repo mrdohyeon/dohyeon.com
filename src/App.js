@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import { Header, Menu, Row, Footer } from './components'
+import { Header, Menu, Project, Footer } from './components'
 import projects from './data/projects'
 import './App.css'
 
@@ -25,11 +25,11 @@ class App extends Component {
 
         <Menu tag={tag} onTagSelect={this.handleTagSelect} />
 
-        <div className="rows">
+        <div className="projects">
           {projects.map((project, i) => {
             if (!tag || project.tag === tag) {
               return (
-                <Row key={i} project={project} />
+                <Project key={i} project={project} />
               )
             }
             return null

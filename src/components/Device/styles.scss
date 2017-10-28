@@ -1,0 +1,92 @@
+.Device {
+  position: relative;
+  background-size: 100% 100%;
+  align-self: center;
+
+  @media (max-width: 980px) {
+    zoom: 0.75;
+  }
+
+  margin: 2em 0;
+  &.phone {
+    margin: 0 0 2em 0;
+    @media (max-width: 980px) {
+      margin: 2em 0;
+    }
+  }
+
+  &::after {
+    content: "";
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+  }
+
+  > .screen {
+    background-color: white;
+
+    > img {
+      width: 100%;
+      height: 100%;
+    }
+
+    > .embed-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      width: 100%;
+      height: 0;
+      overflow: hidden;
+    }
+
+    > .embed-container iframe, .embed-container object, .embed-container embed {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+
+  &.iphone4_7 {
+    width: 342px;
+    height: 694px;
+    background-image: url('./img/iphone4_7.png');
+
+    &::after {
+      background-image: url('./img/iphone4_7-shadow.png');
+      top: -22px;
+      left: -36px;
+      bottom: -136px;
+      right: -138px;
+    }
+
+    > .screen {
+      position: absolute;
+      top: 87px;
+      left: 25px;
+      right: 25px;
+      bottom: 87px;
+      overflow: hidden;
+    }
+  }
+
+  &.windows-phone {
+    width: 300px;
+    height: 500px;
+    box-shadow: 30px 30px 60px #ccc;
+  }
+
+  &.web {
+    position: relative;
+    max-width: 1024px;
+    box-shadow: 30px 30px 60px #ccc;
+
+    > .screen {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

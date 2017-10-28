@@ -1,5 +1,8 @@
 .Menu {
   color: #111;
+  @media (max-width: 600px) {
+    padding: 0.5em 0;
+  }
 
   > * {
     display: flex;
@@ -14,6 +17,9 @@
       color: black;
 
       padding: 1em 0;
+      @media (max-width: 600px) {
+        padding: 0.8em 0;
+      }
       margin-right: 2em;
 
       &:hover {

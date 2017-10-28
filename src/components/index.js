@@ -2,12 +2,14 @@ import Container from './Container'
 import Footer from './Footer'
 import Header from './Header'
 import Menu from './Menu'
-import Row from './Row'
+import Project from './Project'
+import Device from './Device'
 
 export {
   Container,
   Footer,
   Header,
   Menu,
-  Row,
+  Project,
+  Device,
 }

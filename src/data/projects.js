@@ -10,12 +10,13 @@ export default [
       "Invented and devleoped the app.",
       "Utilized Core Data."
     ],
+    "device": "iphone4_7",
     "screens": [
       "images/app/biblebox/2.jpg",
       "images/app/biblebox/3.jpg",
       "images/app/biblebox/4.jpg",
       "images/app/biblebox/5.jpg",
-      "images/app/biblebox/1.jpg"
+      "images/app/biblebox/1.jpg",
     ]
   },
   {
@@ -30,12 +31,13 @@ export default [
       "#1 productivity app in 9 countries.",
       "Designed and deveoped the whole UI and features with AddressBook and Message UI."
     ],
+    "device": "iphone4_7",
     "screens": [
       "images/app/groupsms/1.jpg",
       "images/app/groupsms/2.jpg",
       "images/app/groupsms/3.jpg",
       "images/app/groupsms/4.jpg",
-      "images/app/groupsms/5.jpg"
+      "images/app/groupsms/5.jpg",
     ]
   },
   {
@@ -50,12 +52,13 @@ export default [
       "Utilized REST APIs.",
       "Optimized image downloading behaviour with GCD."
     ],
+    "device": "iphone4_7",
     "screens": [
       "images/app/datepop/1.jpg",
       "images/app/datepop/2.jpg",
       "images/app/datepop/3.jpg",
       "images/app/datepop/4.jpg",
-      "images/app/datepop/5.jpg"
+      "images/app/datepop/5.jpg",
     ]
   },
   {
@@ -69,12 +72,13 @@ export default [
       "Designed/implemented REST API server with Laravel + PHP 7.0.",
       "Implemented iOS client with AsyncDisplayKit to maximize performances."
     ],
+    "device": "iphone4_7",
     "screens": [
       "images/app/redtable/1.jpg",
       "images/app/redtable/2.jpg",
       "images/app/redtable/3.jpg",
       "images/app/redtable/4.jpg",
-      "images/app/redtable/5.jpg"
+      "images/app/redtable/5.jpg",
     ]
   },
   {
@@ -87,6 +91,7 @@ export default [
       "A casual adventure game with flick gestures.",
       "Utilized Unity UI and SmoothMoves."
     ],
+    "device": "web",
     "youtube": "DT9s4AgxIO0"
   },
   {
@@ -98,9 +103,10 @@ export default [
       "Python Image Library is used to render invitations from text and images to rendered web pages.",
       "Built full e-commerce features on Python + Flask."
     ],
+    "device": "web",
     "screens": [
       "images/app/ibeka/1.jpg",
-      "images/app/ibeka/2.jpg"
+      "images/app/ibeka/2.jpg",
     ]
   },
   {
@@ -111,9 +117,10 @@ export default [
       "Implemented web programming and parallax scroll effects.",
       "Wordpress-based pages with full customizations."
     ],
+    "device": "web",
     "screens": [
       "images/app/themax/1.jpg",
-      "images/app/themax/2.jpg"
+      "images/app/themax/2.jpg",
     ]
   },
   {
@@ -126,12 +133,13 @@ export default [
       "E-book, video content playing app with interactive voice recording and playing features.",
       "Built on AVFoundation for recording and playback."
     ],
+    "device": "iphone4_7",
     "screens": [
       "images/app/ghostworld/1.jpg",
       "images/app/ghostworld/2.jpg",
       "images/app/ghostworld/3.jpg",
       "images/app/ghostworld/4.jpg",
-      "images/app/ghostworld/5.jpg"
+      "images/app/ghostworld/5.jpg",
     ]
   },
   {
@@ -145,12 +153,13 @@ export default [
       "Designed and deveoped the whole UI and features with Core Animation.",
       "Reinvented whole UI for iOS 7."
     ],
+    "device": "iphone4_7",
     "screens": [
       "images/app/wordshowers/1.jpg",
       "images/app/wordshowers/2.jpg",
       "images/app/wordshowers/3.jpg",
       "images/app/wordshowers/4.jpg",
-      "images/app/wordshowers/5.jpg"
+      "images/app/wordshowers/5.jpg",
     ]
   },
   {
@@ -163,10 +172,11 @@ export default [
       "Prenatal music album app.",
       "Designed and deveoped the whole UI and features."
     ],
+    "device": "iphone4_7",
     "screens": [
       "images/app/papasong/1.jpg",
       "images/app/papasong/2.jpg",
-      "images/app/papasong/3.jpg"
+      "images/app/papasong/3.jpg",
     ]
   },
   {
@@ -181,11 +191,12 @@ export default [
       "Melodies parsed from MIDI files.",
       "OpenAL used for low-latency playback."
     ],
+    "device": "iphone4_7",
     "screens": [
       "images/app/counter/1.jpg",
       "images/app/counter/2.jpg",
       "images/app/counter/3.jpg",
-      "images/app/counter/4.jpg"
+      "images/app/counter/4.jpg",
     ]
   },
   {
@@ -200,10 +211,8 @@ export default [
       "Implemented the main features with Metro UI and communicated closely with partners in Milan, Italy.",
       "Successfully shipped the app on a tight schedule."
     ],
-    "screens": [
-      "images/app/jilsander/1.jpg",
-      "images/app/jilsander/2.jpg"
-    ]
+    "device": "web",
+    "youtube": "0Eu4-iCoFe0",
   },
   {
     "name": "Weather & Clock",
@@ -215,12 +224,13 @@ export default [
       "Weather, world clock app using MSN weather API.",
       "Built smooth weather animations on Silverlight, pushing the limits of the untried OS in close collaboration with design team."
     ],
+    "device": "windows-phone",
     "screens": [
       "images/app/weatherclock/1.jpg",
       "images/app/weatherclock/2.jpg",
       "images/app/weatherclock/3.jpg",
       "images/app/weatherclock/4.jpg",
-      "images/app/weatherclock/5.jpg"
+      "images/app/weatherclock/5.jpg",
     ]
   }
 ]
