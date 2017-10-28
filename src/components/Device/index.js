@@ -12,7 +12,7 @@ class Device extends Component {
       <div className={`Device ${device} ${isPhone && 'phone'}`}>
         <div className="screen">
           {screens && screens.length > 0 && (
-            <img src={`/${screens[0]}`} alt="screen" />
+            <img src={screens[0]} alt="screen" />
           )}
 
           {youtube && (
