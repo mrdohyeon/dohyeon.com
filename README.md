@@ -1,4 +1,4 @@
-# portfolio.shako.net
+# shako.net
 
 To run the server locally:
 
