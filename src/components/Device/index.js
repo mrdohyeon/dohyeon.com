@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Carousel from 'nuka-carousel'
 
 import './styles.css'
 
@@ -10,17 +11,21 @@ class Device extends Component {
 
     return (
       <div className={`Device ${device} ${isPhone && 'phone'}`}>
-        <div className="screen">
-          {screens && screens.length > 0 && (
-            <img src={screens[0]} alt="screen" />
-          )}
+        {screens && (
+          <Carousel ref="carousel" className="screen" autoplay={true} decorators={null} wrapAround={true} beforeSlide={this.beforeSlide}>
+            {screens.map((screen, i) => (
+              <img key={i} src={screen} alt="screen" />
+            ))}
+          </Carousel>
+        )}
 
-          {youtube && (
+        {youtube && (
+          <div className="screen">
             <div className="embed-container">
               <iframe title={youtube} src={`https://www.youtube.com/embed/${youtube}`} frameBorder="0" allowFullScreen></iframe>
             </div>
-          )}
-        </div>
+          </div>
+        )}
       </div>
     )
   }
