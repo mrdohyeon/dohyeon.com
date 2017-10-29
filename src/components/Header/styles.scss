@@ -16,6 +16,21 @@
     z-index: -1;
   }
 
+  > .buttons {
+    position: absolute;
+    padding: 0;
+    right: 2em;
+    top: 2em;
+    @media (max-width: 980px) {
+      right: 1em;
+      top: 1em;
+    }
+
+    > * {
+      margin-left: 10px;
+    }
+  }
+
   > * {
     padding-top: 6em;
     padding-bottom: 8em;

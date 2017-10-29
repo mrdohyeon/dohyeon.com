@@ -1,11 +1,16 @@
 import React from 'react'
 import moment from 'moment'
 
-import { Container } from '..'
+import { Container, RoundedButton } from '..'
 import './styles.css'
 
 const Header = () => (
   <div className="Header">
+    <div className="buttons">
+      <RoundedButton title="GitHub" link="//github.com/kimshako/portfolio.shako.net" />
+      <RoundedButton title="블로그" link="//blog.shako.net" />
+    </div>
+
     <Container>
       <div className="name">
         Dohyeon Kim
