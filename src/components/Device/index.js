@@ -7,12 +7,10 @@ class Device extends Component {
   render() {
     const { isPhone, device, screens, youtube } = this.props
 
-    // TODO: image slide
-
     return (
       <div className={`Device ${device} ${isPhone && 'phone'}`}>
         {screens && (
-          <Carousel ref="carousel" className="screen" autoplay={true} decorators={null} wrapAround={true} beforeSlide={this.beforeSlide}>
+          <Carousel className="screen" autoplay={true} decorators={null} wrapAround={true} easing="easeInOutExpo" speed={1000}>
             {screens.map((screen, i) => (
               <img key={i} src={screen} alt="screen" />
             ))}
