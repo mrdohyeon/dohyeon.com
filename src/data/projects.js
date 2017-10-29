@@ -91,22 +91,24 @@ export default [
       "A casual adventure game with flick gestures.",
       "Utilized Unity UI and SmoothMoves."
     ],
-    "device": "web",
+    "device": "video",
     "youtube": "DT9s4AgxIO0"
   },
   {
     "name": "ibeka",
     "tag": "web",
-    "year": "2014",
+    "year": "2017",
     "descriptions": [
       "Online and paper invitations service with customizations.",
-      "Python Image Library is used to render invitations from text and images to rendered web pages.",
-      "Built full e-commerce features on Python + Flask."
+      "Built full e-commerce features on Ruby on Rails + React.",
+      "Declarative React code was written for the real-time editor.",
     ],
     "device": "web",
     "screens": [
       "images/app/ibeka/1.jpg",
       "images/app/ibeka/2.jpg",
+      "images/app/ibeka/3.jpg",
+      "images/app/ibeka/4.jpg",
     ]
   },
   {
@@ -203,7 +205,6 @@ export default [
     "name": "JIL SANDER",
     "icon": "",
     "tag": "windows-phone",
-    "download": "",
     "link": "http://youtu.be/0Eu4-iCoFe0",
     "year": "",
     "descriptions": [
@@ -211,14 +212,13 @@ export default [
       "Implemented the main features with Metro UI and communicated closely with partners in Milan, Italy.",
       "Successfully shipped the app on a tight schedule."
     ],
-    "device": "web",
+    "device": "video",
     "youtube": "0Eu4-iCoFe0",
   },
   {
     "name": "Weather & Clock",
     "icon": "",
     "tag": "windows-phone",
-    "download": "",
     "year": "",
     "descriptions": [
       "Weather, world clock app using MSN weather API.",
