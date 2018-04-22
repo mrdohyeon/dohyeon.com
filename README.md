@@ -1,8 +1,17 @@
 # portfolio.shako.net
 
-To run the server locally:
+## Start development
 
-- git clone https://github.com/kimshako/shako.net.git
-- yarn install
-- yarn start
-- Open http://localhost:3000
+```
+yarn install
+yarn start
+```
+
+## Deploy
+
+```
+brew install awscli
+aws configure
+yarn build 
+yarn deploy
+```
