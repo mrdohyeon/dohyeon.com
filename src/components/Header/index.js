@@ -16,16 +16,15 @@ const Header = () => (
       </div>
 
       <div className="title">
-        iOS / Web Developer & Designer
+        Software Engineer
       </div>
 
       <div className="twitter">
-        <a href="https://twitter.com/kimshako">@kimshako</a>
+        <a href="https://twitter.com/dohyeonio">@dohyeonio</a>
       </div>
 
       <div className="description">
-        Software engineer with {moment('20090209').fromNow(true)} of experience implementing applications in platforms including:
-        iOS, Web, Windows Phone, and Unity. Usability is King. Iteration makes perfect.
+        Leveraging technology to lead people to their next steps.
       </div>
     </Container>
   </div>

@@ -1,6 +1,6 @@
 {
-  "name": "shako.net",
-  "version": "0.3.0",
+  "name": "dohyeon.com",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "moment": "^2.19.1",
@@ -13,7 +13,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "aws s3 sync build/ s3://portfolio.shako.net",
+    "deploy": "gh-pages -d build",
     "build-css": "node-sass-chokidar src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
     "start-js": "react-scripts start",
@@ -22,5 +22,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://portfolio.shako.net"
+  "homepage": "https://www.dohyeon.com"
 }
