@@ -20,7 +20,7 @@ const Header = () => (
       </div>
 
       <div className="twitter">
-        <a href="https://twitter.com/dohyeonio">@dohyeonio</a>
+        <a href="https://twitter.com/mrdohyeon">@mrdohyeon</a>
       </div>
 
       <div className="description">
