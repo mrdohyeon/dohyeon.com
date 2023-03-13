@@ -1,6 +1,6 @@
 # dohyeon.com
 
-## Start development
+## Getting Started
 
 ```
 npm install
