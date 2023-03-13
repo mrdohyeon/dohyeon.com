@@ -1,10 +1,10 @@
-# portfolio.shako.net
+# dohyeon.com
 
 ## Start development
 
 ```
-yarn install
-yarn start
+npm install
+npm run start
 ```
 
 ## Deploy
