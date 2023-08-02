@@ -22,5 +22,8 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://www.dohyeon.com"
+  "homepage": "https://www.dohyeon.com",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
 }
