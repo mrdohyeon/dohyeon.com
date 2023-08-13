@@ -7,7 +7,7 @@ import './styles.css'
 const Header = () => (
   <div className="Header">
     <div className="buttons">
-      <RoundedButton title="블로그" link="//blog.dohyeon.com" />
+      <RoundedButton title="블로그" link="//dohyeon.com" />
     </div>
 
     <Container>
